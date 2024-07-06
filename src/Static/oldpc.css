@@ -1,0 +1,100 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #323232;
+}
+
+img {
+  width: 52px;
+  height: 52px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.port {
+  margin-left: 20px;
+}
+nav ul li {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.5vh;
+  margin-bottom: 15px;
+}
+
+nav ul li span {
+
+  text-decoration: none;
+  color: #fff;
+}
+
+.button-three {
+  background-color: #3bb273;
+  padding: 10px 2px;
+  border-radius: 10%;
+  box-shadow: -3px 3px 3px #339963;
+}
+
+.button-two {
+  /* background-color: #4d9de0; */
+  background-color: #e1bc29;
+  padding: 10px 2px;
+  border-radius: 10%;
+  /* box-shadow: -3px 3px 3px #2f8dda; */
+  box-shadow: -3px 3px 3px #c4a31c;
+}
+
+.button-one {
+  background-color: #e15554;
+  padding: 10px 2px;
+  border-radius: 10%;
+  box-shadow: -3px 3px 3px #da2f2f;
+}
+
+.button-four {
+  background-color: #e1bc29;
+  padding: 10px 2px;
+  border-radius: 10%;
+  box-shadow: -3px 3px 3px #c4a31c;
+}
+.buttons:hover {
+  text-decoration: none;
+}
+nav ul li:hover {
+  transform: scale(0.9, 0.9);
+}
+
+.logo:hover {
+  animation: rumble 0.3s linear;
+}
+
+@keyframes rumble {
+  25% {
+    transform: rotate(10deg);
+  }
+  75% {
+    transform: rotate(-20deg);
+  }
+}
+header {
+  justify-content: space-between;
+}
+
+header img {
+  padding-left: 10px;
+  width: 56px;
+  height: 66px;
+}
+
+nav ul li {
+  padding: 10px 15px;
+  margin-right: 20px;
+  font-size: 1em;
+}
