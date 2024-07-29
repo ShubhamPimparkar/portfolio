@@ -5,35 +5,33 @@ import "../Static/oldpc.css"
 export default function Sidebar() {
   return (
     <div>
-    
-    <nav>
-      <ul>
-     
-       {/* class="button-one"><a href="#">About</a> */}
-        
-        <li> 
-        <NavLink className="buttons button-one"to={"/about"}>
-          <span>About</span>  
-          </NavLink>
-        </li>
-        <li> 
-        <NavLink className="buttons button-two"to={"/project"}>
-        <span>Project</span>   
-          </NavLink>
-        </li>
-        <li> 
-        <NavLink className="buttons button-three"to={"/contact"}>
-        <span>Contact</span>   
-          </NavLink>
-        </li>
 
-    <img className="port logo" src={oldpc} alt="logo"/>
-    <li>
-    <span className='port'>Portfolio Website</span>
+      <nav>
+        <ul>
 
-    </li>
-      </ul>
-    </nav>
+          {/* class="button-one"><a href="#">About</a> */}
+
+          <li>
+            <NavLink className="buttons button-one" to={"/about"}>
+              <span>About</span>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="buttons button-two" to={"/project"}>
+              <span>Project</span>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="buttons button-three" to={"/contact"}>
+              <span>Contact</span>
+            </NavLink>
+          </li>
+
+          <img className="port logo" src={oldpc} alt="logo" />
+  
+          <span className='port'>Portfolio Website</span>
+        </ul>
+      </nav>
 
     </div>
   )

@@ -17,20 +17,27 @@ nav ul {
   list-style: none;
 }
 
-.port {
-  margin-left: 20px;
+nav ul .port {
+ 
+  font-size: 20px;
+  color: #fff;
+  font-family: "Press Start 2P", cursive;
+  margin-left: 50px;
 }
 nav ul li {
   text-decoration: none;
   display: inline-block;
   text-transform: uppercase;
-  font-family: "Press Start 2P", cursive;
+  /* font-family: "Press Start 2P", cursive; */
+
+  font-family: monospace;
   font-size: 1.5vh;
   margin-bottom: 15px;
 }
 
 nav ul li span {
-
+  font-weight: bold;
+  padding: 7px;
   text-decoration: none;
   color: #fff;
 }

@@ -1,43 +1,52 @@
-.foot {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: auto;
-  /* width: 100%; */
-  background-color: #1d1d1d;
-  color: aliceblue;
+.foot{
+  background: #323232; /* Dark background for the footer */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  
 
-  /* bottom: 0; */
-  padding: 15px;
-  justify-content: center;
+  /* position: fixed; */
+   
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
-.my-lang {
-  margin-bottom: 100px;
-  font-size: 30px;
-  color: #e1fd0c;
-}
+
 .home h3 {
   margin-bottom: 20px;
 }
-.my-name {
-  font-family: "Playwrite GB S";
-  /* font-family: 'Press Start 2P', cursive; */
-  color: #ffa500;
-}
+
 .my-style-text {
+  margin-bottom: 100px;
+  font-size: 30px;
   font-family: "Anton SC", sans-serif;
-  color: #ffa500;
+  background: linear-gradient(90deg, #ffa318, #ecff1e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+.my-style-text:hover{
+  transition: color 0.5s ease;
+  cursor: pointer;
+  /* color: aliceblue; */
+  background: linear-gradient(90deg, #18ff33, #ecff1e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .home {
   font-family: "Nunito", sans-serif;
   /* font-family: "Biryani", sans-serif; */
   color: beige;
-  background-color: rgb(25, 76, 218);
-  margin: 30px;
+  background-color: #0075db; /* Light blue background */
   padding: 20px;
-  /* border: 3px solid #262626; */
-  border-radius: 7px;
-  width: 75%;
-  box-shadow: 5px 5px #000000;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  margin: 20px;
+  /* box-shadow: 1px 3px 10px 2px #000000; */
+  box-shadow:  rgba(0, 114, 207, 0.4) 5px 5px,  rgba(0, 114, 207, 0.3) 10px 10px, rgba(0, 114, 207, 0.2) 15px 15px, rgba(0, 114, 207, 0.1) 20px 20px,rgba(0, 114, 207, 0.05) 25px 25px;
+  margin-bottom: 60px;
 }
 
 .yellow-bar {
@@ -58,8 +67,9 @@
   margin: 10px;
 }
 .lang:hover {
-  border: 1px solid rgb(0, 0, 0);
-  background-color: rgb(13, 66, 210);
+  background-color: #2296fc;
+  border-radius: 10px;
+  transition: background-color 0.2s ease-in-out ;
 }
 
 .intrest {
@@ -68,8 +78,9 @@
   margin: 10px;
 }
 .intrest:hover {
-  border: 1px solid rgb(0, 0, 0);
-  background-color: rgb(13, 66, 210);
+  background-color: #2296fc;
+  border-radius: 10px;
+  transition: background-color 0.2s ease-in-out ;
 }
 .my-self {
   font-size: 18px;
@@ -89,9 +100,7 @@
   border: 2px solid black;
   border-radius: 10px;
 }
-.my-resume{
-  margin: 10px;
-}
+
 .resume:hover {
   color: aliceblue;
   text-decoration: none;
@@ -110,41 +119,62 @@ color: rgba(233, 249, 20, 0.98);
     margin: 10px;
   
 }
-
-.cdac:hover{
-  border: 1px solid black;
-  border-radius: 7px;
-  background-color: rgb(13, 66, 210);
-
- 
-}
-.be:hover{
-  border: 1px solid black;
-  border-radius: 7px;
-  background-color: rgb(13, 66, 210);
-
- 
-}
-.twelve:hover{
-  border: 1px solid black;
-  border-radius: 7px;
-  background-color: rgb(13, 66, 210);
-  
- 
-}
-.ten:hover{
-  border: 1px solid black;
-  border-radius: 7px;
-  background-color: rgb(13, 66, 210);
-  
- 
-}
-
 .box{
+  
   padding: 6px;
+}
+.box:hover{
+  background-color: #2296fc;
+  border-radius: 10px;
+  transition: background-color 0.2s ease-in-out ;
 }
 .imgSize{
   margin: 40px;
   width: 300px;
   height: 300px;
 }
+
+
+
+.para-text{
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.certfi{
+  padding: 10px;
+  /* border: 2px solid #ffa500; */
+  background-color: #2296fc;
+  border-radius: 10px;
+  
+}
+
+.ficate{
+  font-weight: 500;
+  color: rgb(37, 37, 37);
+  display: block;
+  text-align: center;
+  width: 90px;
+  background-color: #ffa500;
+  border: 2px solid black;
+  border-radius: 10px;
+  
+}
+.ficate:hover{
+  text-decoration: none;
+  color: aliceblue;
+}
+.my-name {
+  font-family: "Playwrite GB S";
+  /* font-family: 'Press Start 2P', cursive; */
+  /* color: #ffa500; */
+  font-weight: 500;
+  background: linear-gradient(90deg, #ffa318, #ecff1e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* .box-li li{
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #46b1fe;
+} */

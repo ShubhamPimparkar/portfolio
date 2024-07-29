@@ -1,0 +1,66 @@
+/* App.css */
+/* App.css */
+.paragraph-background {
+  /* background-color: #94cdff;  */
+  background-color: #0075db; /* Light blue background */
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  margin: 20px;
+  box-shadow:  rgba(0, 114, 207, 0.4) 5px 5px,  rgba(0, 114, 207, 0.3) 10px 10px, rgba(0, 114, 207, 0.2) 15px 15px, rgba(0, 114, 207, 0.1) 20px 20px,rgba(0, 114, 207, 0.05) 25px 25px;
+  margin-bottom: 400px;
+ 
+}
+.proj-back{
+  background-color: #0075db; /* Light blue background */
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  margin: 20px;
+  /* box-shadow: 1px 3px 10px 2px #000000; */
+  box-shadow:  rgba(0, 114, 207, 0.4) 5px 5px,  rgba(0, 114, 207, 0.3) 10px 10px, rgba(0, 114, 207, 0.2) 15px 15px, rgba(0, 114, 207, 0.1) 20px 20px,rgba(0, 114, 207, 0.05) 25px 25px;
+}
+.cont-text {
+  color: #ffa500;
+  font-family: "Anton SC", sans-serif;
+  
+}
+
+.conts a{
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: none;
+
+}
+.conts a:hover{
+  color: #ebfb34;
+  text-decoration: none;
+
+}
+.conts {
+  display: block;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-right: 15px; 
+  margin-bottom: 30px;
+  cursor: pointer;
+  
+}
+.conts-box{
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #46b1fe;
+}
+.conts-box:hover{
+  padding: 7px;
+  transition: all 0.2s ease-in-out;
+  
+}
+.mail-id{
+  color:#f7ff11 ;
+  font-style: italic;
+}
+.about-site{
+  color: #ffffff;
+  
+}
